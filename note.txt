@@ -1,0 +1,17 @@
+                                STEPS FOR SERVER SETUP
+                                ----------------------
+
+1.  Syntax for Install express-generator            -   npx express-generator
+2.  Syntax for install depemdies                    -   npm i
+3.  Syntax for install mysql/promise                -   npm i mysql2-promise
+4.  Syntax for install mysql2                       -   npm install --save mysql2
+5.  Syntax for install dotenv                       -   npm i dotenv
+6.  dotenv configration put into app.js file        -   require('dotenv').config()
+    after morgan import 
+7.  Create a env file and setup database , host ,user and password setup.
+8.  Create a file for database, Eg:- database.js
+9.  Create file in routes folder
+10. That routes file import app.js and set up the path using app.use()
+11. Create a folder for model and create a file in js format.
+12. Create another folder for control and create a file in js format.
+13. bcrypt password in mongodb 
